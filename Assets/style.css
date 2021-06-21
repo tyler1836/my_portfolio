@@ -4,12 +4,13 @@
  box-sizing: border-box;   
 }
 :root{
-    --primary-color: #0a47a3cb;
-    --secondary-color: #11bea7;
-    --tertiary-color: rgba(98, 199, 128, 0.993);
+    --primary-color: #364f6b;
+    --secondary-color: #3fc1c9;
+    --tertiary-color: #fc5185;
+    --fourth-color:#f5f5f5;
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Helvetica, arial, sans-serif;
     background-color: var(--primary-color);
     font-weight: lighter;
 }
@@ -19,7 +20,8 @@ a {
     font-size: 20px;
 }
 a:hover{
-    background-color: whitesmoke;
+    background-color: var(--fourth-color, 0.9);
+    border-radius: 5px;
 }
 header{
     background-image: url("./portfolio.jpeg");
@@ -33,13 +35,76 @@ header h1{
     color: var(--secondary-color);
     font-weight: lighter;
 }
+header a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+header{
+    
+    margin: 7px 0px;
+}
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+aside{
+    display: flex;
+    margin-top: 20px;
+}
+aside h2{
+    font-weight: bold;
+    padding: 10px;
+    color: var(--tertiary-color);
+}
+aside ul li{
+    line-height: 1.8;
+    font-weight: bolder;
+    color: var(--secondary-color);
+    margin-left: 35px;
+    list-style: none;
+    border-bottom: var(--fourth-color) solid 2px;
+    font-size: 20px;
+}
+aside a{
+    font-size: 16px;
+}
+iframe{
+    width: 800px;
+    height: 400px;
+    margin: 50px 20px 25px 20px ;
+    overflow: hidden;
+}
+main p{
+    display: inline-block;
+    color: var(--secondary-color);
+    line-height: 1.5;
+    text-align: center;
+    margin: 35px 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
 mark{
-    background-color: transparent;
+    background: transparent;
+    display: flex;
+    text-align: center;
+}
+
+mark p{
+    text-align: center;
 }
 mark img{
     width: 250px;
-    height: auto;
-    display: inline-flex;
+    height: 300px;
     flex-wrap: wrap;
     margin: 20px;
 
