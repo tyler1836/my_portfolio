@@ -122,16 +122,25 @@ main p{
 }
 article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    text-align: center;
-    flex: 1 1 25%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.picture-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 30px;
 }
 article h3{
     color: var(--tertiary-color);
     font-size: 26px;
     font-weight: lighter;
     border-bottom: 5px solid var(--fourth-color);
+
     
 }
 .picture-box img{
@@ -139,7 +148,7 @@ article h3{
     flex-direction: row;
     max-width: 200px;
     height: auto;
-    border: solid 2px var(--fourth-color);
+    border: solid 2px var(--secondary-color);
     
 
 }
