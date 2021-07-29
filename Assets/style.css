@@ -114,6 +114,12 @@ main p{
     border: var(--secondary-color) 3px solid;
     text-shadow: 0 0 10px rgba(0, 0, 0, .35);
 }
+#projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 .bottom-left a{
     position: relative;
     bottom: 32px;
@@ -126,6 +132,13 @@ main p{
 }
 .run-buddy img{
     margin-left: 20px;
+    max-width: 500px;
+    max-height: 400px;
+    border: solid 2px var(--fourth-color);
+}
+.air-quality img{
+    margin-left: 20px;
+    max-width: 500px;
     max-height: 400px;
     border: solid 2px var(--fourth-color);
 }
