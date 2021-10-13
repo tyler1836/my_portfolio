@@ -156,14 +156,8 @@ article{
     flex-direction: column;
     
 }
-.picture-box{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-direction: row;
-    margin-top: 30px;
-}
-article h3{
+
+article h5{
     color: var(--tertiary-color);
     font-size: 26px;
     font-weight: lighter;
@@ -171,19 +165,22 @@ article h3{
 
     
 }
-.picture-box img{
+.picture-box{
     display: flex;
-    flex-direction: row;
-    max-width: 200px;
-    height: auto;
-    border: solid 2px var(--secondary-color);
-    
-
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    max-height: 20%;
 }
-.picture-box p{
-    color: var(--secondary-color);
-    font-size: 18px;
-
+.picture-box img{
+    max-width: 400px;
+    max-height: 300px;
+}
+button{
+    color: #3fc1c9;
+    background-color: #f5ddc9;
+    width: 25px;
+    height: 25px;
 }
 @media screen and (max-width: 980px) {
   
