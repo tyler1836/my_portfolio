@@ -6,3 +6,4 @@
 ### Added some personal pictures for background about me
 ### Link to my github in my contact info
 ### Will add email reference link at later date
+### [Check it out here](https://tyler1836.github.io/my_portfolio/)
