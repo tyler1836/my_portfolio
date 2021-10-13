@@ -1,17 +1,17 @@
 const images = [
     {
         id: 1,
-        img: 'Assets/Photos/20200808_161714.jpg',
+        img: './Assets/Photos/20200808_161714.jpg',
         text: 'Me and My significant other.'
     },
     {
         id: 2,
-        img: 'Assets/Photos/20200903_161724.jpg',
+        img: './Assets/Photos/20200903_161724.jpg',
         text: 'My happy pitbull.'
     },
     {
         id: 3,
-        img: 'Assets/Photos/20210507_141528.jpg',
+        img: './Assets/Photos/20210507_141528.jpg',
         text: 'My older dog enjoying the sunshine.'
     }
 ];
